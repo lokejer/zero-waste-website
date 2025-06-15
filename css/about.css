@@ -12,6 +12,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
+  cursor: pointer;
   background-color: var(--lavender); /* semi-transparent thumb */
   border-radius: 200px; /* rounded edges */
 }

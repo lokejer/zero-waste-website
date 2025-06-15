@@ -249,8 +249,6 @@ strong {
 
 /* individual waste type cards */
 #annual-stats .waste-breakdown .card {
-  flex-grow: 1;
-
   width: 300px;
   height: 200px;
   padding-left: 2em;
@@ -491,6 +489,8 @@ strong {
 }
 
 #success-stories #click-the-polaroids {
+  margin-top: 3em;
+  text-align: center;
   opacity: 0;
   animation: fade-in-out 3s ease-in-out infinite;
 }
